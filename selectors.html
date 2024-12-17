@@ -34,29 +34,147 @@
             background-color: rgb(233, 233, 60);
         }*/
         /* id selector */
-        #heading1{
+        /* #heading1{
             color: brown;
             text-align: center;
         }
         #heading2{
             color: rgb(9, 9, 152);
             background-color: rgb(207, 204, 204);
-        }
+        } */
         /* class selector */
-        .para{
+        /* .para{
             color: rgb(223, 147, 48);
             font-weight: 600;
             font-size:30px;
+        } */
+        /* group selector */
+        /* h1,p{
+            color: brown;
+        } */
+
+        /* decendent selector */
+        /* div p{
+            color: red;
+        } */
+
+         /* child combinator */
+         /* div>p{
+            background-color:blueviolet
+         }
+         span>span{
+            background-color: deeppink;
+         }
+         div>span{
+            background-color:cornflowerblue;
+         } */
+
+        /* adjacent sibling selector */
+        /* h1+p{
+            color: darkcyan;
+            font-style: italic;
+        }  */
+        
+        /* general sibling selector */
+        /* h1~p{
+            color:forestgreen;
+        } */
+
+         /* pseudo classes */
+         /* h1:hover{
+            color: blue;
+            font-style: oblique;
+         }
+         button{
+            padding: 7px 35px;
+            background-color: blueviolet;
+            border: 1px black solid;
+            border-radius: 15px;
+            color: white;
+         }
+         button:hover{
+            background-color: crimson;
+            cursor:pointer;
+            border: none;
+            border-radius: 0px;
+            padding: 15px 60px;
+         }
+         a:link{
+            color: red;
+         }
+         a:visited{
+            color:blue;
+         }
+         a:hover{
+            color:hotpink;
+            background-color:black;
+         }
+         a:active{
+            color: chartreuse;
+         } */
+
+         /* attribute selector */
+        /* [placeholder]{
+            color: royalblue;
+            border: 2px solid rgb(137, 6, 137);
         }
+        input[type="text"]{
+            color: green;
+            padding: 10px 20px;
+             
+        } */
+
+         /* nth-child */
+         
+         li:nth-child(1){
+            color: brown;
+         }
+         li:nth-child(2){
+            color:aqua;
+         }
+         li:nth-child(3){
+            color: blue;
+         }
+         li:nth-child(4){
+            color: violet;
+         }
+         li:nth-child(5){
+            color: green;
+         }
     </style>
 </head>
 <body>
-    <h1 id="heading1">this is demo for selectors</h1>
+    <!-- <h1 id="heading1">this is demo for selectors</h1>
     <h2 id="heading2">this is demo</h2>
     <p class="para">this is a para</p>
     <h3>this is demo</h3>
     <p class="para">this is a para2</p>
     <h3>this is demo</h3>
-    <h2>demo</h2>
+    <h2>demo</h2> -->
+    
+    <!-- <div>
+        <p>this is direct child that will target</p>
+        <div>
+            <span>
+            <span>this is span inside span tag.</span>
+            </span>
+            <span>this is nested child of div</span>
+        </div>
+    </div> -->
+
+    <!-- <h1>heading</h1>
+    <p>para1</p>
+    <p>para2</p>
+    <button>submit</button>
+    <br><br>
+    <a href="https://www.w3schools.com/css/css_pseudo_classes.asp" target="_blank">this is link</a> -->
+    <!-- <input type="text"  placeholder="enter your name"> -->
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
 </body>
 </html>
