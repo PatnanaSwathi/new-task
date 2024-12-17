@@ -11,8 +11,8 @@
   background: rgba(48, 7, 7, 0.5);
   color: #cea32a;
   width: 100%;
-  padding: 20px;
-  text-align: center;
+  padding: 30px 80px ;
+  text-align: left;
   }
   p{
     font-size: 18px;
@@ -25,7 +25,7 @@
     text-decoration: underline;
   }
   button{
-    background-color:  rgba(208, 5, 5, 0.5);
+    background-color:  rgba(141, 5, 5, 0.735);
     width:130px;
     height:40px;
     border-style: solid;
@@ -38,5 +38,12 @@
   button:hover{
     background-color: #cea32a;
     color:black
+  }
+  img{
+    height: 165px;
+    width: 180px;
+    border-radius: 150px;
+    margin-right:160px;
+    margin-top: 20px;
   }
   
